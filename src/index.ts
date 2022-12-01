@@ -41,9 +41,6 @@ try{
         }
       }
     },
-  }, {
-    height: 30,
-    width: 90,
   })
   response.set("Content-Disposition", "inline;");
   response.set("Cache-Control", "max-age=3600");
